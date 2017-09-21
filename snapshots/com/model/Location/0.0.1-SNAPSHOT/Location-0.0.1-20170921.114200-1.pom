@@ -23,7 +23,12 @@
 <url>file://C:\Users\sonay\Documents\sts-projeleri\Model\Location\snapshots</url>
 </snapshotRepository>
 </distributionManagement>
+<scm>
+<connection>scm:git:git://github.com/sonayergunlu/Location.git</connection>
+	<developerConnection>scm:git:git@github.com:sonayergunlu/Location.git</developerConnection>
+	<url>http://github.com/sonayergunlu/Location</url>
 
+</scm>
   <dependencies>
    <dependency>
     <groupId>javax.persistence</groupId>
